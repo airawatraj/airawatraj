@@ -8,7 +8,7 @@
   
   *Science investigates the outer reality. Meditation investigates the inner one.*
 
-  [![YouTube](https://img.shields.io/badge/YouTube-Subscribe-red?style=for-the-badge&logo=youtube)](YOUR_YOUTUBE_LINK_HERE)
+  [![YouTube](https://img.shields.io/badge/YouTube-Subscribe-red?style=for-the-badge&logo=youtube)](https://www.youtube.com/@airawatraj)
   [![Kaggle](https://img.shields.io/badge/Kaggle-Profile-20BEFF?style=for-the-badge&logo=kaggle)](https://kaggle.com/airawatraj)
   [![Website](https://img.shields.io/badge/Web-Truth_Lab-8A2BE2?style=for-the-badge&logo=google-chrome)](https://airawatraj.github.io)
 
@@ -19,7 +19,7 @@
 ### 🎯 Mission: Liberating Humans
 > *"The future belongs to those who understand at a very deep level how to combine their unique expertise with what algorithms do best."* — Pedro Domingos
 
-My dream project operates on the equation: ** Multimodel AI Agent (Mind) + IoT (Bodies) = [Cogni.chat](https://cogni.chat/)**
+My dream project operates on the equation: **Multimodel AI Agent (Mind) + IoT (Bodies) = [Cogni.chat](https://cogni.chat/)**
 
 I view existence through a distinct lens:
 * **Robots** are Hardware (Body)
