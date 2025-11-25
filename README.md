@@ -1,6 +1,6 @@
 <div align="center">
 
-  <img src="./path/to/your/banner_image.jpg" alt="Airawatraj Banner" width="100%" />
+  <img src="https://raw.githubusercontent.com/airawatraj/airawatraj.github.io/refs/heads/main/assets/airawatraj-banner.png" alt="Airawatraj Banner" width="100%" />
 
   # Namaste, I'm Rajendra Singh Rawat
 
