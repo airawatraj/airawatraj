@@ -16,10 +16,16 @@
 
 ---
 
-### 🎯 Mission: Liberating Humans
-> *"The future belongs to those who understand at a very deep level how to combine their unique expertise with what algorithms do best."* — Pedro Domingos
+<div align="center">
+  <h3>🎯 Mission: Liberating Humans</h3>
+  <p>
+    <i>"The future belongs to those who understand at a very deep level how to combine their unique expertise with what algorithms do best."</i><br>
+    — Pedro Domingos
+  </p>
+</div>
 
-My dream project operates on the equation: **Multimodel AI Agent (Mind) + IoT (Bodies) = [Cogni.chat](https://cogni.chat/)**
+
+My dream project operates on the equation: **Multimodal AI Agent (Mind) + IoT (Bodies) = [Cogni.chat](https://cogni.chat/)**
 
 I view existence through a distinct lens:
 * **Robots** are Hardware (Body)
