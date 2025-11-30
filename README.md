@@ -14,10 +14,6 @@
 
 </div>
 
-### 🛡️ Current Focus: [Fiduciary Agent](https://github.com/airawatraj/fiduciary-ops-agent)
-*Google AI Agents Capstone Project (Nov 2025)*
-> A Risk-Aware Orchestrator where **Gemini 2.5 (Brain)** is governed by **Python (Hands)** to ensure safety.
-
 ---
 
 <div align="center">
