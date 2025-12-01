@@ -6,7 +6,7 @@
 
 <h3>Technologist | Experimenter | Seeker</h3>
 
-> *"Science investigates the outer reality. Mindfulness investigates the inner one."*
+> *"Science investigates the outer reality. Meditation investigates the inner one."*
 
 <br />
 
