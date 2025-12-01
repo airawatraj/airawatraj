@@ -6,7 +6,7 @@
 
 <br>
 
-[![Website](https://img.shields.io/badge/Enter_The_Truth_Lab-6A0DAD?style=for-the-badge&logo=firefox&logoColor=white)](https://airawatraj.github.io)
+[![Website](https://img.shields.io/badge/AIRAWAT_Raj-6A0DAD?style=for-the-badge&logo=firefox&logoColor=white)](https://airawatraj.github.io)
 [![YouTube](https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/@airawatraj)
 [![Kaggle](https://img.shields.io/badge/Kaggle-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white)](https://kaggle.com/airawatraj)
 
