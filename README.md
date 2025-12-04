@@ -4,15 +4,12 @@
 
 <br />
 
-<h3>Technologist | Experimenter | Seeker</h3>
+<h3>technologist | experimenter | seeker</h3>
 
-> *"Science investigates the outer reality. Meditation investigates the inner one."*
+> *"the future belongs to those who understand at a very deep level how to combine their unique expertise with what algorithms do best"
+> Pedro Domingos, The Master Algorithm"*
 
 <br />
-
-<img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
-<img src="https://img.shields.io/badge/Gemini_AI-8E75B2?style=flat-square&logo=google&logoColor=white" />
-<img src="https://img.shields.io/badge/Azure-0078D4?style=flat-square&logo=microsoft-azure&logoColor=white" />
 
 <br />
 <br />
@@ -30,7 +27,7 @@
 <br />
 <br />
 
-<b>Architecting <a href="https://cogni.chat/">Cogni.chat</a></b><br>
+<b>dream project: Cogni.chat</b><br>
 <sub>A Multimodal AI ecosystem (Mind + Body) serving the Human Spirit.</sub>
 
 </div>
