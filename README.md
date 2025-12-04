@@ -15,7 +15,7 @@
 <br />
 
 <a href="https://airawatraj.github.io">
-  <img src="https://img.shields.io/badge/VISIT_THE_TRUTH_LAB-101010?style=for-the-badge&logo=firefox&logoColor=white" />
+  <img src="https://img.shields.io/badge/AIRAWAT_LABS-101010?style=for-the-badge&logoColor=white" />
 </a>
 <a href="https://www.youtube.com/@airawatraj">
   <img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" />
