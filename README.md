@@ -14,8 +14,8 @@
 <br />
 <br />
 
-<a href="https://airawatraj.github.io">
-  <img src="https://img.shields.io/badge/AIRAWAT_LABS-101010?style=for-the-badge&logoColor=white" />
+<a href="https://rawatlabs.github.io">
+  <img src="https://img.shields.io/badge/RAWAT_LABS-101010?style=for-the-badge&logoColor=white" />
 </a>
 <a href="https://www.youtube.com/@airawatraj">
   <img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" />
