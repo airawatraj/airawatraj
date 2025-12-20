@@ -27,7 +27,7 @@
 <br />
 <br />
 
-<b>dream project: Cogni.chat</b><br>
+<b>Dream Project: <a href="https://cogni.chat">Cogni</a></b><br>
 <sub>A Multimodal AI ecosystem (Mind + Body) serving the Human Spirit.</sub>
 
 </div>
