@@ -1,7 +1,5 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/airawatraj/airawatraj.github.io/refs/heads/main/assets/airawatraj-banner.png" alt="Airawatraj Banner" width="100%" />
-
 <br />
 
 <h3>technologist | experimenter | seeker</h3>
