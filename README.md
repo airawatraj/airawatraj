@@ -25,7 +25,7 @@
 <br />
 <br />
 
-<b>Building <a href="https://cogni.chat">Cogni AI</a></b><br>
+<b>Building <a href="https://cogni.chat">Cogni.chat</a></b><br>
 <sub>A Multimodal AI ecosystem (Mind + Body) serving the Human Spirit.</sub>
 
 </div>
