@@ -27,10 +27,13 @@
 
 <b>Building..</b>
 <ul>
-  <li><b><a href="https://cogni.chat">Cogni.chat</a></b>: A Multimodal AI ecosystem (Mind + Body) serving the Human Spirit.</li>
-  <li><b>SageGPT-20M</b> (Foundation SLM): A Transformer for the 17.87M Sanskrit tokens</li>
+  <li>
+    <b><a href="https://cogni.chat">Cogni.chat</a></b>: A Multimodal AI ecosystem (Mind + Body) serving the Human Spirit.
+  </li>
+  <li>
+    <b><a href="https://github.com/airawatraj/sage-gpt">SageGPT-20M</a></b> (Foundation SLM): A Transformer for the 17.87M Sanskrit tokens.
+  </li>
 </ul>
-
 </div>
 
 <br>
