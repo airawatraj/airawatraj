@@ -25,8 +25,11 @@
 <br />
 <br />
 
-<b>Building <a href="https://cogni.chat">Cogni.chat and SageGPT (Foundation SLM 12M) </a></b><br>
-<sub>A Multimodal AI ecosystem (Mind + Body) serving the Human Spirit.</sub>
+<b>Building..</b>
+<ul>
+  <li><b><a href="https://cogni.chat">Cogni.chat</a></b>: A Multimodal AI ecosystem (Mind + Body) serving the Human Spirit.</li>
+  <li><b>SageGPT-20M</b> (Foundation SLM): A Transformer for the 17.87M Sanskrit tokens</li>
+</ul>
 
 </div>
 
