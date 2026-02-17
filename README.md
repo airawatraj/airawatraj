@@ -25,7 +25,7 @@
 <br />
 <br />
 
-<b>Building <a href="https://cogni.chat">Cogni.chat</a></b><br>
+<b>Building <a href="https://cogni.chat">Cogni.chat and SageGPT (Foundation SLM 12M) </a></b><br>
 <sub>A Multimodal AI ecosystem (Mind + Body) serving the Human Spirit.</sub>
 
 </div>
