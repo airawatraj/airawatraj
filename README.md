@@ -31,7 +31,7 @@
     <b><a href="https://cogni.chat">Cogni.chat</a></b>: A Multimodal AI ecosystem (Mind + Body) serving the Human Spirit.
   </li>
   <li>
-    <b><a href="https://github.com/airawatraj/sage-gpt">SageGPT-20M</a></b> (Foundation SLM): A Transformer for the 17.87M Sanskrit tokens.
+    <b><a href="https://github.com/airawatraj/sage-gpt">SageGPT-16.7M</a></b> (16.78M Foundation SLM): A Transformer trained from scratch on 81M Sanskrit tokens, architected to induce grokking (delayed generalization) through high-overfitting regimes and an AEDT-governed training engine.
   </li>
 </ul>
 </div>
