@@ -31,7 +31,7 @@
     <b><a href="https://cogni.chat">Cogni.chat</a></b>: A Multimodal AI ecosystem (Mind + Body) serving the Human Spirit.
   </li>
   <li>
-    <b><a href="https://github.com/airawatraj/sage-gpt">SageGPT-7M (MLX)</a></b> (7.25M Foundation SLM): A Transformer trained from scratch on 56.89M Sanskrit tokens with 4 Layer 8 Attn Head 256 embed 256 context 8K vocab.
+    <b><a href="https://github.com/airawatraj/sage-gpt">SageGPT-7M</a></b> (7.25M Foundation SLM): A Transformer trained from scratch on 56.89M Sanskrit tokens with 4 Layer 8 Attn Head 256 embed 256 context 8K vocab (Both MLX and NVIDIA DGX supported)
   </li>
 </ul>
 </div>
