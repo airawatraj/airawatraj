@@ -32,7 +32,7 @@
   </li>
 
   <li>
-    <b><a href="https://github.com/airawatraj/sage-gpt">Sage-GPT-48M-Sutra (NVIDIA DGX)</a></b> A high-performance Transformer SLM trained from scratch on ~88M Sanskrit tokens with with 10 Layer 16 Attn Head 512 embed 1024 context 16K vocab.
+    <b><a href="https://github.com/airawatraj/sage-gpt">Sage-GPT-48M-Sutra (NVIDIA DGX)</a></b> A high-performance Transformer SLM trained from scratch on ~72M Sanskrit tokens with with 10 Layer 16 Attn Head 512 embed 1024 context 16K vocab.
   </li>
     <li>
     <b><a href="https://github.com/airawatraj/sage-gpt-mlx">SageGPT-7M (MLX only)</a></b> (7.25M Foundation SLM): A Transformer trained from scratch on 56.89M Sanskrit tokens with 4 Layer 8 Attn Head 256 embed 256 context 8K vocab.
