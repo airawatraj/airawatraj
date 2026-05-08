@@ -25,19 +25,20 @@
 <b>Building..</b>
 <ul>
   <li>
-    <b><a href="https://cogni.chat">Cogni.chat</a></b>: A Multimodal AI ecosystem (Mind + Body) serving the Human Spirit.
+    <b><a href="https://cogni.chat">Cogni.chat</a></b>: A 
+   The Local-First <b>Multimodal AI Agent</b> - orchestrating Cogni Still, Cogni Breath, Cogni Ground, Cogni Weaver, and Cogni Sign into one cohesive intelligence designed to support the human mind, body, and spirit.
   </li>
   <li>
-    <b><a href="https://github.com/airawatraj/dgx-spark-nemotron-super-agent">Cogni-Brain (Nemotron-120B)</a></b>: Optimized inference for Nemotron-3-Super on DGX Spark; achieving **23.2 TPS** with NVFP4 Marlin quantization, MTP speculative decoding, and a stable **131K** context window.
+    <b><a href="https://github.com/airawatraj/dgx-spark-nemotron-super-agent">Cogni-Brain (Nemotron-120B)</a></b>: Optimized inference for Nemotron-3-Super on DGX Spark; achieving <b>23.2 TPS</b> with NVFP4 Marlin quantization, MTP speculative decoding, and a stable <b>131K</b> context window.
   </li>
   <li>
-    <b><a href="https://github.com/airawatraj/fiduciary-ops-agent">Fiduciary-Ops-Agent</a></b>: An autonomous enterprise governance agent utilizing a strict **"Check-then-Act"** protocol via Gemini 2.5 Flash Lite; enforces real-time fiduciary risk-alignment (CLV vs. Refund) using tool-first orchestration.
+    <b><a href="https://github.com/airawatraj/fiduciary-ops-agent">Fiduciary-Ops-Agent</a></b>: An autonomous enterprise governance agent utilizing a strict <b>Check-then-Act</b> protocol via Gemini 2.5 Flash Lite; enforces real-time fiduciary risk-alignment (CLV vs. Refund) using tool-first orchestration.
   </li>
   <li>
-    <b><a href="https://github.com/airawatraj/sage-gpt">SageGPT-7.5M (NVIDIA DGX only)</a></b>: A high-performance Transformer trained on NVIDIA DGX Spark from scratch on ~140M pure Sanskrit tokens; 6 Layer, 8 Attn Head, 256 embed, 1024 context.
+    <b><a href="https://github.com/airawatraj/sage-gpt">SageGPT-7.5M (NVIDIA DGX only)</a></b>: A high-performance Transformer trained on NVIDIA DGX Spark from scratch on <b>~140M</b> pure Sanskrit tokens; 6 Layer, 8 Attn Head, 256 embed, 1024 context.
   </li>
   <li>
-    <b><a href="https://github.com/airawatraj/sage-gpt-mlx">SageGPT-7M (MLX only)</a></b>: A 7.25M Foundation SLM trained from scratch on 56.89M Sanskrit tokens; 4 Layer, 8 Attn Head, 256 embed, 256 context.
+    <b><a href="https://github.com/airawatraj/sage-gpt-mlx">SageGPT-7M (MLX only)</a></b>: A 7.25M Foundation SLM trained from scratch on <b>~57M</b> Sanskrit tokens; 4 Layer, 8 Attn Head, 256 embed, 256 context.
   </li>
 </ul>
 </div>
