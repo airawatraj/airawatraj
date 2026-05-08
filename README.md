@@ -18,6 +18,10 @@
   <img src="https://img.shields.io/badge/Kaggle-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white" />
 </a>
 
+<a href="https://airawatraj.github.io/">
+  <img src="https://img.shields.io/badge/PORTFOLIO-24292e?style=for-the-badge&logo=githubpages&logoColor=white" alt="Portfolio">
+</a>
+
 <br />
 <br />
 
