@@ -30,12 +30,14 @@
   <li>
     <b><a href="https://cogni.chat">Cogni.chat</a></b>: A Multimodal AI ecosystem (Mind + Body) serving the Human Spirit.
   </li>
-
   <li>
-    <b><a href="https://github.com/airawatraj/sage-gpt">SageGPT-7.5M (NVIDIA DGX only)</a></b> A high-performance Transformer trained on NVIDIA DGX Spark from scratch on ~140 M Tokens pure Sanskrit tokens with with 6 Layer 8 Attn Head 256 embed 1024 context ~8K vocab..
+  <b><a href="https://github.com/airawatraj/dgx-spark-nemotron-super-agent">Cogni-Brain (Nemotron-120B):</a></b>  Optimized inference for Nemotron-3-Super on DGX Spark; achieving 23.2 TPS with NVFP4 Marlin quantization, MTP speculative decoding, and a stable 131K context window.
+  </li>
+  <li>
+    <b><a href="https://github.com/airawatraj/sage-gpt">SageGPT-7.5M (NVIDIA DGX only): </a></b> A high-performance Transformer trained on NVIDIA DGX Spark from scratch on ~140 M Tokens pure Sanskrit tokens with with 6 Layer 8 Attn Head 256 embed 1024 context ~8K vocab..
   </li>
     <li>
-    <b><a href="https://github.com/airawatraj/sage-gpt-mlx">SageGPT-7M (MLX only)</a></b> (7.25M Foundation SLM): A Transformer trained from scratch on 56.89M Sanskrit tokens with 4 Layer 8 Attn Head 256 embed 256 context 8K vocab.
+    <b><a href="https://github.com/airawatraj/sage-gpt-mlx">SageGPT-7M (MLX only): </a></b> (7.25M Foundation SLM): A Transformer trained from scratch on 56.89M Sanskrit tokens with 4 Layer 8 Attn Head 256 embed 256 context 8K vocab.
   </li>
 </ul>
 </div>
