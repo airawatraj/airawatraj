@@ -53,5 +53,7 @@
 <hr>
 
 <div align="center">
-  <sub><i>"The quietest minds are the loudest mirrors."</i> — BG 2.56</sub>
+
+
+  <sub><i>"I have no special talent. I am only passionately curious"</i> - Albert Einstein</sub>
 </div>
