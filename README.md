@@ -26,10 +26,11 @@
 <br />
 
 <div align="left" style="display: inline-block; text-align: left; max-width: 850px;">
-<b>Building...</b>
+<b>Independent Research & Projects.</b>
 <ul>
   <li>
-    <b><a href="https://github.com/airawatraj/dgx-spark-nemotron-super-agent">Cogni-Brain</a></b>: <b>Optimised inference</b> and <b>hardened agentic stack</b> for Nemotron-3-Super-120B, NemoHermes on DGX Spark - vLLM configuration, and pushing community benchmarks.
+    <b><a href="https://github.com/airawatraj/dgx-spark-nemotron-super-agent">Cogni-Brain</a></b>: 
+    Designed and validated a <b>secure, sovereign, production-grade agentic AI</b> system on NVIDIA DGX Spark using NemoHermes, OpenShell, and kernel-level sandboxing; <b>advanced community benchmarks</b>.
   </li>
   <li>
     <b><a href="https://github.com/airawatraj/sage-gpt">SageGPT-7.5M (NVIDIA DGX only)</a></b>: SLM trained <b>from scratch</b> on <b>~140M</b> pure Sanskrit tokens on NVIDIA DGX Spark. 6 Layer, 8 Attn Head, 256 embed, 1024 context.
