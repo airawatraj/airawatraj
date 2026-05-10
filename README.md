@@ -29,19 +29,19 @@
 <b>Building..</b>
 <ul>
   <li>
-    <b><a href="https://cogni.chat">Cogni.chat</a></b>: Local-First <b>Multimodal AI Agent</b> - orchestrating Cogni Still, Cogni Breath, Cogni Ground, Cogni Weaver, and Cogni Sign into one cohesive intelligence designed to support the human mind, body, and spirit.
-  </li>
-  <li>
-    <b><a href="https://github.com/airawatraj/dgx-spark-nemotron-super-agent">Cogni-Brain (Nemotron-120B)</a></b>: <b>Optimised inference</b> and <b>hardened agentic deployment</b> for Nemotron-3-Super on DGX Spark; 23.2 TPS, NVFP4 Marlin, MTP speculative decoding, 131K context, NemoHermes + OpenShell sandbox.
-  </li>
-  <li>
-    <b><a href="https://github.com/airawatraj/fiduciary-ops-agent">Fiduciary-Ops-Agent</a></b>: An autonomous enterprise governance agent utilising a strict <b>Check-then-Act</b> protocol via Gemini 2.5 Flash Lite; enforces real-time fiduciary risk-alignment (CLV vs. Refund) using tool-first orchestration.
+    <b><a href="https://github.com/airawatraj/dgx-spark-nemotron-super-agent">Cogni-Brain</a></b>: <b>Optimised inference</b> and <b>hardened agentic deployment</b> for Nemotron-3-Super on DGX Spark; 23.2 TPS, NVFP4 Marlin, MTP speculative decoding, 131K context, NemoHermes + OpenShell sandbox.
   </li>
   <li>
     <b><a href="https://github.com/airawatraj/sage-gpt">SageGPT-7.5M (NVIDIA DGX only)</a></b>: SLM trained <b>from scratch</b> on <b>~140M</b> pure Sanskrit tokens on NVIDIA DGX Spark. 6 Layer, 8 Attn Head, 256 embed, 1024 context.
   </li>
   <li>
-    <b><a href="https://github.com/airawatraj/sage-gpt-mlx"> SageGPT-7M (MLX only)</a></b>: SLM trained <b>from scratch</b> on <b>~57M</b> Sanskrit tokens on Apple Silicon. 4 Layer, 8 Attn Head,256 embed, 256 context.
+    <b><a href="https://github.com/airawatraj/sage-gpt-mlx"> SageGPT-7M (MLX only)</a></b>: SLM trained <b>from scratch</b> on <b>~57M</b> Sanskrit tokens on Apple Silicon. 4 Layer, 8 Attn Head, 256 embed, 256 context.
+  </li>
+    <li>
+    <b><a href="https://cogni.chat">Cogni.chat</a></b>: Local-First <b>Multimodal AI Agent</b> - orchestrating Cogni Still, Cogni Breath, Cogni Ground, Cogni Weaver, and Cogni Sign into one cohesive intelligence designed to support the human mind, body, and spirit.
+  </li>
+    <li>
+    <b><a href="https://github.com/airawatraj/fiduciary-ops-agent">Fiduciary-Ops-Agent</a></b>: An autonomous enterprise governance agent utilising a strict <b>Check-then-Act</b> protocol via Gemini 2.5 Flash Lite; enforces real-time fiduciary risk-alignment (CLV vs. Refund) using tool-first orchestration.
   </li>
 </ul>
 </div>
