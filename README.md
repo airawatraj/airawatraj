@@ -26,7 +26,7 @@
 <br />
 
 <div align="left" style="display: inline-block; text-align: left; max-width: 850px;">
-<b>Building..</b>
+<b>Building...</b>
 <ul>
   <li>
     <b><a href="https://github.com/airawatraj/dgx-spark-nemotron-super-agent">Cogni-Brain</a></b>: <b>Optimised inference</b> and <b>hardened agentic stack</b> for Nemotron-3-Super-120B, NemoHermes on DGX Spark - vLLM configuration, and pushing community benchmarks.
