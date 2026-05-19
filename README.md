@@ -4,7 +4,7 @@
 
 <h3>technologist | experimenter | seeker</h3>
 
-> *"the future belongs to those who understand at a very level how to combine their unique expertise with what algorithms do best" — Pedro Domingos, The Master Algorithm*
+> *"the future belongs to those who understand at a very deep level how to combine their unique expertise with what algorithms do best" — Pedro Domingos, The Master Algorithm*
 
 <br />
 
