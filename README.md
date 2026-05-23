@@ -29,8 +29,12 @@
 <b>Independent Research & Projects.</b>
 <ul>
   <li>
+    <b><a href="https://github.com/airawatraj/dgx-spark-qwen-super-agent">Cogni-Brain-2</a></b>: 
+    Achieved <b>218.85 TPS</b> and a perfect <b>100/100 tool-use score</b> running Qwen 3.6-35B on NVIDIA DGX Spark via the Atlas engine. Explored the trade-offs between ultra-fast agentic execution and the deep-reasoning stability of larger parameters.
+  </li>
+  <li>
     <b><a href="https://github.com/airawatraj/dgx-spark-nemotron-super-agent">Cogni-Brain</a></b>: 
-    Designed and validated a <b>secure, sovereign, production-grade agentic AI</b> system on NVIDIA DGX Spark using NemoHermes, OpenShell, and kernel-level sandboxing; <b>advanced community benchmarks</b>.
+    Designed and optimised a <b>secure, sovereign, production-grade agentic AI</b> system on NVIDIA DGX Spark using NemoHermes, OpenShell, and kernel-level sandboxing; <b>advanced community benchmarks</b>.
   </li>
   <li>
     <b><a href="https://github.com/airawatraj/sage-gpt">SageGPT-7.5M (NVIDIA DGX only)</a></b>: SLM trained <b>from scratch</b> on <b>~140M</b> pure Sanskrit tokens on NVIDIA DGX Spark. 6 Layer, 8 Attn Head, 256 embed, 1024 context.
