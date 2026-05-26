@@ -28,7 +28,7 @@
 <ul>
 <li>
   <b><a href="https://github.com/airawatraj/dgx-spark-qwen-super-agent">Cogni-Brain-2</a></b>: 
-  Deployed and optimised Qwen 3.6-35B on NVIDIA DGX Spark via the Atlas engine; achieved <b>218.85 TPS</b>, a perfect <b>100/100 tool-use score</b>, and documented the benchmark methodology for ultra-fast local agentic execution.
+  Deployed and optimised Qwen 3.6-35B on NVIDIA DGX Spark via the Atlas engine; achieved <b>218.85 tok/s</b>, a perfect <b>100/100 tool-use score</b>, and documented the benchmark methodology for ultra-fast local agentic execution.
 </li>
 
 <li>
