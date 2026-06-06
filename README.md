@@ -31,10 +31,10 @@
     Qwen 3.6-35B on DGX Spark via Atlas. <b>218.85 tok/s</b>, <b>100/100 Tool-Eval</b>, local NVFP4 acceleration.
   </li>
 
-  <li>
-    <b><a href="https://github.com/airawatraj/dgx-spark-gemma4-omni-agent">Cogni-Brain Omni</a></b>: 
-    Gemma 4 12B on DGX Spark via vLLM. <b>Multimodal input</b>, tools, MTP, <b>196K context</b>, and reproducible local benchmarks.
-  </li>
+ <li>
+  <b><a href="https://github.com/airawatraj/dgx-spark-gemma4-omni-agent">Cogni-Brain Omni</a></b>: 
+  Gemma 4 12B on DGX Spark via vLLM. <b>Multimodal input</b>, multilingual chat, tools, MTP, <b>196K context</b>, and reproducible local benchmarks.
+ </li>
 
   <li>
     <b><a href="https://github.com/airawatraj/dgx-spark-nemotron-super-agent">Cogni-Brain</a></b>: 
