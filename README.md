@@ -26,23 +26,28 @@
 <b>Independent Research & Systems.</b>
 
 <ul>
-<li>
-  <b><a href="https://github.com/airawatraj/dgx-spark-qwen-super-agent">Cogni-Brain-2</a></b>: 
-  Deployed and optimised Qwen 3.6-35B on NVIDIA DGX Spark via the Atlas engine; achieved <b>218.85 tok/s</b>, a perfect <b>100/100 tool-use score</b>, and documented the benchmark methodology for ultra-fast local agentic execution.
-</li>
-
-<li>
-  <b><a href="https://github.com/airawatraj/dgx-spark-nemotron-super-agent">Cogni-Brain</a></b>: 
-  Pushed Nemotron-3-Super-120B on NVIDIA DGX Spark beyond one-click demo workflows into sustained long-context agentic work; operated within NVIDIA NeMoHermes / NeMoClaw's hardened OpenShell model, stabilised a <b>131K local context</b>, achieved <b>~24 tok/s</b>, and documented the benchmark methodology for the community.
-</li>
+  <li>
+    <b><a href="https://github.com/airawatraj/dgx-spark-qwen-super-agent">Cogni-Brain-2</a></b>: 
+    Qwen 3.6-35B on DGX Spark via Atlas. <b>218.85 tok/s</b>, <b>100/100 Tool-Eval</b>, local NVFP4 acceleration.
+  </li>
 
   <li>
-    <b><a href="https://github.com/airawatraj/sage-gpt">SageGPT-7.5M (NVIDIA DGX only)</a></b>: 
+    <b><a href="https://github.com/airawatraj/dgx-spark-gemma4-omni-agent">Cogni-Brain Omni</a></b>: 
+    Gemma 4 12B on DGX Spark via vLLM. <b>Multimodal input</b>, tools, MTP, <b>196K context</b>, and reproducible local benchmarks.
+  </li>
+
+  <li>
+    <b><a href="https://github.com/airawatraj/dgx-spark-nemotron-super-agent">Cogni-Brain</a></b>: 
+    Nemotron-3-Super-120B on DGX Spark via vLLM. Stable <b>131K local context</b>, <b>~24 tok/s</b>, hardened agentic stack, and reproducible benchmark methodology.
+  </li>
+
+  <li>
+    <b><a href="https://github.com/airawatraj/sage-gpt">SageGPT-7.5M</a></b>: 
     SLM trained <b>from scratch</b> on <b>~140M</b> pure Sanskrit tokens on NVIDIA DGX Spark. 6 Layer, 8 Attn Head, 256 embed, 1024 context.
   </li>
 
   <li>
-    <b><a href="https://github.com/airawatraj/sage-gpt-mlx">SageGPT-7M (MLX only)</a></b>: 
+    <b><a href="https://github.com/airawatraj/sage-gpt-mlx">SageGPT-7M MLX</a></b>: 
     SLM trained <b>from scratch</b> on <b>~57M</b> Sanskrit tokens on Apple Silicon. 4 Layer, 8 Attn Head, 256 embed, 256 context.
   </li>
 
