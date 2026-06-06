@@ -26,20 +26,20 @@
 <b>Independent Research & Systems.</b>
 
 <ul>
-  <li>
-    <b><a href="https://github.com/airawatraj/dgx-spark-qwen-super-agent">Cogni-Brain-2</a></b>: 
-    Qwen 3.6-35B on DGX Spark via Atlas. <b>218.85 tok/s</b>, <b>100/100 Tool-Eval</b>, local NVFP4 acceleration.
-  </li>
-
- <li>
+<li>
   <b><a href="https://github.com/airawatraj/dgx-spark-gemma4-omni-agent">Cogni-Brain Omni</a></b>: 
-  Gemma 4 12B on DGX Spark via vLLM. <b>Multimodal input</b>, multilingual chat, tools, MTP, <b>196K context</b>, and reproducible local benchmarks.
- </li>
+  Local multimodal agent brain for sandboxed DGX Spark workflows: Gemma 4 12B via vLLM with <b>image/audio/video input</b>, <b>multilingual chat</b>, tool calling, <b>196K context</b>, and reproducible local benchmarks.
+</li>
 
-  <li>
-    <b><a href="https://github.com/airawatraj/dgx-spark-nemotron-super-agent">Cogni-Brain</a></b>: 
-    Nemotron-3-Super-120B on DGX Spark via vLLM. Stable <b>131K local context</b>, <b>~24 tok/s</b>, hardened agentic stack, and reproducible benchmark methodology.
-  </li>
+<li>
+  <b><a href="https://github.com/airawatraj/dgx-spark-qwen-super-agent">Cogni-Brain-2</a></b>: 
+  Fast local agent brain for sandboxed DGX Spark workflows: Qwen 3.6-35B via Atlas with <b>218.85 tok/s</b>, <b>100/100 Tool-Eval</b>, and local NVFP4 acceleration.
+</li>
+
+<li>
+  <b><a href="https://github.com/airawatraj/dgx-spark-nemotron-super-agent">Cogni-Brain</a></b>: 
+  Long-context reasoning brain for sandboxed DGX Spark workflows: Nemotron-3-Super-120B via vLLM with stable <b>131K local context</b>, <b>~24 tok/s</b>, hardened agentic stack, and reproducible benchmark methodology.
+</li>
 
   <li>
     <b><a href="https://github.com/airawatraj/sage-gpt">SageGPT-7.5M</a></b>: 
