@@ -28,7 +28,7 @@
 <ul>
 <li>
   <b><a href="https://github.com/airawatraj/dgx-spark-gemma4-omni-agent">Cogni-Brain Omni</a></b>: 
-  Local multimodal agent brain for sandboxed DGX Spark workflows: Gemma 4 12B via vLLM with <b>image/audio/video input</b>, <b>multilingual chat</b>, tool calling, <b>196K context</b>, and reproducible local benchmarks.
+  Local multimodal agent brain for sandboxed DGX Spark workflows: Gemma 4 12B via vLLM with <b>image/audio/video input</b>, <b>multilingual chat</b>, <b>Telegram voice notes</b>, tool calling, <b>196K context</b>, and reproducible local benchmarks.
 </li>
 
 <li>
