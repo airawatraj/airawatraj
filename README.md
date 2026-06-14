@@ -25,41 +25,52 @@
 
 <b>Independent Research & Systems.</b>
 
+<p>
+Building local-first AI systems across <b>reasoning</b>, <b>tool use</b>, <b>long-context agents</b>, and <b>multimodal workflows</b> including text, image, audio, video-as-frames, voice notes, Telegram agents, Claude Code backends, and personal/household intelligence.
+</p>
+
 <ul>
+
 <li>
-  <b><a href="https://github.com/airawatraj/dgx-spark-gemma4-omni-agent">Cogni-Brain Omni</a></b>: 
-  Local multimodal agent brain for sandboxed DGX Spark workflows: Gemma 4 12B via vLLM with <b>image/audio/video input</b>, <b>multilingual chat</b>, <b>Telegram voice notes</b>, tool calling, <b>196K context</b>, and reproducible local benchmarks.
+  <b><a href="https://github.com/airawatraj/dgx-spark-qwen-omni-super-agent">Cogni-Brain Qwen Omni</a></b>: 
+  Latest high-context Cogni-Brain iteration for DGX Spark: Qwen3.5-122B-A10B, a native multimodal model supporting <b>text, image, and video inputs</b>, served via <b>spark-vLLM Docker</b>. Compared with the earlier Nemotron brain, this variant expands local context from <b>131K to 262K</b>, improves speed from <b>~24 to ~40 tok/s</b>, and reaches <b>100/100 Tool-Eval</b>.
 </li>
 
 <li>
-  <b><a href="https://github.com/airawatraj/dgx-spark-qwen-super-agent">Cogni-Brain-2</a></b>: 
-  Fast local agent brain for sandboxed DGX Spark workflows: Qwen 3.6-35B via Atlas with <b>218.85 tok/s</b>, <b>100/100 Tool-Eval</b>, and local NVFP4 acceleration.
+  <b><a href="https://github.com/airawatraj/dgx-spark-gemma4-omni-agent">Cogni-Brain Omni Vision</a></b>: 
+  Dedicated local multimodal perception agent for sandboxed DGX Spark workflows: Gemma 4 12B via vLLM with <b>image input</b>, <b>audio/voice-note workflows</b>, <b>video-as-frames perception</b>, multilingual chat, tool calling, <b>196K context</b>, and reproducible local benchmarks.
 </li>
 
 <li>
-  <b><a href="https://github.com/airawatraj/dgx-spark-nemotron-super-agent">Cogni-Brain</a></b>: 
-  Long-context reasoning brain for sandboxed DGX Spark workflows: Nemotron-3-Super-120B via vLLM with stable <b>131K local context</b>, <b>~24 tok/s</b>, hardened agentic stack, and reproducible benchmark methodology.
+  <b><a href="https://github.com/airawatraj/dgx-spark-qwen-super-agent">Cogni-Brain Qwen Fast</a></b>: 
+  Fast local tool-agent brain for sandboxed DGX Spark workflows: Qwen 3.6-35B via Atlas with <b>218.85 tok/s</b>, <b>100/100 Tool-Eval</b>, and local NVFP4 acceleration for responsive Claude Code and agent loops.
 </li>
 
-  <li>
-    <b><a href="https://github.com/airawatraj/sage-gpt">SageGPT-7.5M</a></b>: 
-    SLM trained <b>from scratch</b> on <b>~140M</b> pure Sanskrit tokens on NVIDIA DGX Spark. 6 Layer, 8 Attn Head, 256 embed, 1024 context.
-  </li>
+<li>
+  <b><a href="https://github.com/airawatraj/dgx-spark-nemotron-super-agent">Cogni-Brain Nemotron</a></b>: 
+  Original large local reasoning brain for sandboxed DGX Spark workflows: Nemotron-3-Super-120B via vLLM with stable <b>131K local context</b>, <b>~24 tok/s</b>, <b>93/100 Tool-Eval</b>, hardened agentic stack, and reproducible benchmark methodology.
+</li>
 
-  <li>
-    <b><a href="https://github.com/airawatraj/sage-gpt-mlx">SageGPT-7M MLX</a></b>: 
-    SLM trained <b>from scratch</b> on <b>~57M</b> Sanskrit tokens on Apple Silicon. 4 Layer, 8 Attn Head, 256 embed, 256 context.
-  </li>
+<li>
+  <b><a href="https://github.com/airawatraj/sage-gpt">SageGPT-7.5M</a></b>: 
+  Small language model trained <b>from scratch</b> on <b>~140M</b> pure Sanskrit tokens on NVIDIA DGX Spark. 6 Layer, 8 Attention Head, 256 embed, 1024 context.
+</li>
 
-  <li>
-    <b><a href="https://cogni.chat">Cogni.chat</a></b>: 
-    Local-first <b>multimodal AI ecosystem</b> for personal and household intelligence, designed to support memory, planning, wellbeing, learning, creative work, and family coordination.
-  </li>
+<li>
+  <b><a href="https://github.com/airawatraj/sage-gpt-mlx">SageGPT-7M MLX</a></b>: 
+  Small language model trained <b>from scratch</b> on <b>~57M</b> Sanskrit tokens on Apple Silicon. 4 Layer, 8 Attention Head, 256 embed, 256 context.
+</li>
 
-  <li>
-    <b><a href="https://github.com/airawatraj/fiduciary-ops-agent">Fiduciary-Ops-Agent</a></b>: 
-    Autonomous enterprise governance agent utilising a strict <b>Check-then-Act</b> protocol via Gemini 2.5 Flash Lite; enforces real-time fiduciary risk-alignment using tool-first orchestration.
-  </li>
+<li>
+  <b><a href="https://cogni.chat">Cogni.chat</a></b>: 
+  Local-first <b>multimodal AI ecosystem</b> for personal and household intelligence, designed to support memory, planning, wellbeing, learning, creative work, family coordination, and multimodal interaction across text, voice, images, and personal context.
+</li>
+
+<li>
+  <b><a href="https://github.com/airawatraj/fiduciary-ops-agent">Fiduciary-Ops-Agent</a></b>: 
+  Autonomous enterprise governance agent utilising a strict <b>Check-then-Act</b> protocol via Gemini 2.5 Flash Lite; enforces real-time fiduciary risk-alignment using tool-first orchestration.
+</li>
+
 </ul>
 
 </div>
