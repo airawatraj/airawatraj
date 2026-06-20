@@ -26,7 +26,7 @@
 <b>Independent Research & Systems.</b>
 
 <p>
-Building local-first AI systems across <b>reasoning</b>, <b>tool use</b>, <b>long-context agents</b>, and <b>multimodal workflows</b> including text, image, audio, video-as-frames, voice notes, Telegram agents, Claude Code backends, and personal/household intelligence.
+Building sovereign, local-first AI systems across <b>reasoning</b>, <b>tool use</b>, <b>long-context agents</b>, <b>multimodal workflows</b>, and <b>personal knowledge infrastructure</b> including text, image, audio, video-as-frames, voice notes, Telegram agents, Claude Code backends, and personal/household intelligence.
 </p>
 
 <ul>
@@ -62,8 +62,13 @@ Building local-first AI systems across <b>reasoning</b>, <b>tool use</b>, <b>lon
 </li>
 
 <li>
+  <b><a href="https://github.com/airawatraj/cogni-life-os">Cogni Life OS</a></b>: 
+  Sovereign, local-first personal knowledge and automation system built around an <b>Obsidian-compatible Markdown vault</b>, with durable AI agents, multimodal capture, rebuildable hybrid retrieval, evidence-backed actions, and local Cogni-Brain inference on DGX Spark.
+</li>
+
+<li>
   <b><a href="https://cogni.chat">Cogni.chat</a></b>: 
-  Local-first <b>multimodal AI ecosystem</b> for personal and household intelligence, designed to support memory, planning, wellbeing, learning, creative work, family coordination, and multimodal interaction across text, voice, images, and personal context.
+  Broader local-first <b>multimodal AI ecosystem</b> for personal and household intelligence, spanning memory, planning, wellbeing, learning, creative work, family coordination, and interaction across text, voice, images, and personal context. Cogni Life OS provides its sovereign knowledge and automation foundation.
 </li>
 
 <li>
