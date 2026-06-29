@@ -38,7 +38,7 @@ Building sovereign, local-first AI systems—from training small language models
 
 <li>
   <b><a href="https://github.com/airawatraj/dgx-spark-qwen-omni-super-agent">Cogni-Brain 122B</a></b>: 
-  Latest high-context Cogni-Brain iteration for DGX Spark: Qwen3.5-122B-A10B, a native multimodal model supporting <b>text, image, and video inputs</b>, served via <b>spark-vLLM Docker</b>. Compared with the earlier Nemotron brain, this variant expands local context to <b>262K</b>, improves speed to <b>~40 tok/s</b>, and reaches <b>100/100 Tool-Eval</b>.
+  Latest high-context Cogni-Brain iteration for DGX Spark: Qwen3.5-122B-A10B INT4+FP8 hybrid, a native multimodal model supporting <b>text, image, and video inputs</b>, served via <b>Entrpi DFlash dense runtime</b>. Compared with the earlier Nemotron brain, this variant expands local context to <b>262K</b>, improves speed to <b>54.44 tok/s</b> single-stream, 68 tok/s peak. Maintains <b>262K</b> context, 3 concurrent streams, and <b>100/100 Tool-Eval</b>
 </li>
 
 <li>
