@@ -73,7 +73,7 @@ Building sovereign, local-first AI systems—from training small language models
 
 <li>
   <b><a href="https://github.com/airawatraj/fiduciary-ops-agent">Fiduciary-Ops-Agent</a></b>: 
-  Autonomous enterprise governance agent utilising a strict <b>Check-then-Act</b> protocol via Gemini 2.5 Flash Lite; enforces real-time fiduciary risk alignment using tool-first orchestration.
+  Autonomous enterprise governance agent utilising a strict <b>Check-then-Act</b> protocol via Gemini 2.5 Flash Lite; enforces real-time fiduciary risk alignment using tool-first orchestration. Also works with local AI - CogniBrain (Qwen122B) on DGX spark. 
 </li>
 
 </ul>
