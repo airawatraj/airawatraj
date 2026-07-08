@@ -4,7 +4,9 @@
 
 <h3>technologist | experimenter | seeker</h3>
 
-> <i>"the future belongs to those who understand at a very deep level how to combine their unique expertise with what algorithms do best"</i> — Pedro Domingos, <i>The Master Algorithm</i>
+<blockquote>
+  <i>"the future belongs to those who understand at a very deep level how to combine their unique expertise with what algorithms do best"</i> - Pedro Domingos, <i>The Master Algorithm</i>
+</blockquote>
 
 <br />
 
@@ -26,54 +28,59 @@
 <b>Independent Research & Systems.</b>
 
 <p>
-Building sovereign, local-first AI systems—from training small language models from scratch, through multimodal, high-speed, and long-context agent research on DGX Spark, to Cogni Life OS: a private intelligence and automation layer for personal and household knowledge.
+Building sovereign, local-first AI systems - from training small language models from scratch, through multimodal, high-speed, and long-context agent research on DGX Spark, to Cogni Life OS: a private intelligence and automation layer for personal and household knowledge.
 </p>
 
 <ul>
 
 <li>
-  <b><a href="https://github.com/airawatraj/cogni-life-os">Cogni Life OS</a></b>: 
-  The culmination of the Cogni-Brain experiments: a sovereign, local-first personal knowledge and automation system built around an <b>Obsidian-compatible Markdown vault</b>, with durable AI agents, multimodal capture, layered lexical retrieval, evidence-backed actions, natural voice interaction, and local Cogni-Brain inference on DGX Spark.
+  <b><a href="https://github.com/airawatraj/cogni-life-os">Cogni Life OS</a></b>:
+  Sovereign, local-first personal knowledge and automation system built around an <b>Obsidian-compatible Markdown vault</b>, with durable AI agents, multimodal capture, layered lexical retrieval, evidence-backed actions, natural voice interaction, and local Cogni-Brain inference on DGX Spark.
 </li>
 
 <li>
-  <b><a href="https://github.com/airawatraj/dgx-spark-qwen-omni-super-agent">Cogni-Brain 122B</a></b>: 
-  Latest high-context Cogni-Brain iteration for DGX Spark: Qwen3.5-122B-A10B INT4+FP8 hybrid, a native multimodal model supporting <b>text, image, and video inputs</b>, served via <b>Entrpi DFlash dense runtime</b>. Compared with the earlier Nemotron brain, this variant expands local context to <b>262K</b>, improves speed to <b>54.44 tok/s</b> single-stream, 68 tok/s peak. Maintains <b>262K</b> context, 3 concurrent streams, and <b>100/100 Tool-Eval</b>
+  <b><a href="https://github.com/airawatraj/dgx-spark-qwen-omni-super-agent">Cogni-Brain 122B</a></b>:
+  Current high-context Cogni-Brain iteration for DGX Spark: Qwen3.5-122B-A10B INT4+FP8 hybrid, a native multimodal model supporting <b>text, image, and video inputs</b>. Compared with the earlier Nemotron brain, this variant expands local context to <b>262K</b>, improves speed to <b>54.44 tok/s</b> single-stream, reaches 68 tok/s peak, supports 3 concurrent streams, and maintains <b>100/100 Tool-Eval</b>.
 </li>
 
 <li>
-  <b><a href="https://github.com/airawatraj/dgx-spark-nemotron-super-agent">Cogni-Brain 120B</a></b>: 
+  <b><a href="https://github.com/airawatraj/cognibash">CogniBash</a></b>:
+  Experimental terminal/action workbench for Cogni-Brain, exploring local ReAct-style bash execution, command feedback loops, workspace-scoped runs, output limits, safer tool-use guardrails, and fine-tuned code-agent behaviour on DGX Spark.
+</li>
+
+<li>
+  <b><a href="https://github.com/airawatraj/dgx-spark-nemotron-super-agent">Cogni-Brain 120B</a></b>:
   Earlier large local reasoning brain for sandboxed DGX Spark workflows: Nemotron-3-Super-120B via vLLM with stable <b>131K local context</b>, <b>~24 tok/s</b>, <b>93/100 Tool-Eval</b>, a hardened agentic stack, and reproducible benchmark methodology.
 </li>
 
 <li>
-  <b><a href="https://github.com/airawatraj/dgx-spark-qwen-super-agent">Cogni-Brain 35B</a></b>: 
+  <b><a href="https://github.com/airawatraj/dgx-spark-qwen-super-agent">Cogni-Brain 35B</a></b>:
   Fast local tool-agent brain for sandboxed DGX Spark workflows: Qwen 3.6-35B via Atlas with <b>~219 tok/s</b>, <b>100/100 Tool-Eval</b>, and local NVFP4 acceleration for responsive Claude Code and agent loops.
 </li>
 
 <li>
-  <b><a href="https://github.com/airawatraj/dgx-spark-gemma4-omni-agent">Cogni-Brain 12B</a></b>: 
+  <b><a href="https://github.com/airawatraj/dgx-spark-gemma4-omni-agent">Cogni-Brain 12B</a></b>:
   Dedicated local multimodal perception agent for sandboxed DGX Spark workflows: Gemma 4 12B via vLLM with <b>image input</b>, <b>audio and voice-note workflows</b>, <b>video-as-frames perception</b>, multilingual chat, tool calling, <b>196K context</b>, and reproducible local benchmarks.
 </li>
 
 <li>
-  <b><a href="https://github.com/airawatraj/sage-gpt">SageGPT-7.5M (DGX)</a></b>: 
+  <b><a href="https://github.com/airawatraj/sage-gpt">SageGPT-7.5M (DGX)</a></b>:
   Small language model trained <b>from scratch</b> on <b>~140M pure Sanskrit tokens</b> on NVIDIA DGX Spark, with 6 layers, 8 attention heads, 256-dimensional embeddings, a 1024-token context window, and an ~8K vocabulary.
 </li>
 
 <li>
-  <b><a href="https://github.com/airawatraj/sage-gpt-mlx">SageGPT-7M  (MLX)</a></b>: 
+  <b><a href="https://github.com/airawatraj/sage-gpt-mlx">SageGPT-7M (MLX)</a></b>:
   Small language model trained <b>from scratch</b> on <b>~57M Sanskrit tokens</b> using Apple MLX, with 4 layers, 8 attention heads, 256-dimensional embeddings, and an 8K vocabulary for Apple Silicon inference.
 </li>
 
 <li>
-  <b><a href="https://cogni.chat">Cogni.chat</a></b>: 
-  Broader local-first <b>multimodal AI ecosystem</b> for personal and household intelligence, spanning memory, planning, wellbeing, learning, creative work, family coordination, and interaction across text, voice, images, and personal context. Cogni Life OS provides its sovereign knowledge and automation foundation.
+  <b><a href="https://cogni.chat">Cogni.chat</a></b>:
+  Broader local-first <b>multimodal AI ecosystem</b> direction for personal and household intelligence, spanning memory, planning, wellbeing, learning, creative work, family coordination, and interaction across text, voice, images, and personal context. Cogni Life OS provides its sovereign knowledge and automation foundation.
 </li>
 
 <li>
-  <b><a href="https://github.com/airawatraj/fiduciary-ops-agent">Fiduciary-Ops-Agent</a></b>: 
-  Autonomous enterprise governance agent utilising a strict <b>Check-then-Act</b> protocol via Gemini 2.5 Flash Lite; enforces real-time fiduciary risk alignment using tool-first orchestration. Also works with local AI - CogniBrain (Qwen122B) on DGX spark. 
+  <b><a href="https://github.com/airawatraj/fiduciary-ops-agent">Fiduciary-Ops-Agent</a></b>:
+  Autonomous enterprise governance agent using a strict <b>Check-then-Act</b> protocol via Gemini 2.5 Flash Lite; enforces real-time fiduciary risk alignment using tool-first orchestration. Also works with local Cogni-Brain inference on DGX Spark.
 </li>
 
 </ul>
@@ -86,5 +93,5 @@ Building sovereign, local-first AI systems—from training small language models
 <hr />
 
 <div align="center">
-  <sub><i>"I have no special talent. I am only passionately curious"</i> — Albert Einstein</sub>
+  <sub><i>"I have no special talent. I am only passionately curious"</i> - Albert Einstein</sub>
 </div>
