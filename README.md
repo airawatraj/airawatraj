@@ -45,7 +45,7 @@ Building sovereign, local-first AI systems - from training small language models
 
 <li>
   <b><a href="https://github.com/airawatraj/cognibash">CogniBash</a></b>:
-  Experimental terminal/action workbench for Cogni-Brain, exploring local ReAct-style bash execution, command feedback loops, workspace-scoped runs, output limits, safer tool-use guardrails, and fine-tuned code-agent behaviour on DGX Spark.
+  Experimental terminal/action workbench for Cogni-Brain, exploring local <b>ReAct-style bash execution</b>, command feedback loops, workspace-scoped runs, output limits, safer tool-use guardrails, and <b>fine-tuned code-agent behaviour</b> on DGX Spark.
 </li>
 
 <li>
