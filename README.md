@@ -64,8 +64,8 @@ Building sovereign, local-first AI systems - from training small language models
 </li>
 
 <li>
-  <b><a href="https://github.com/airawatraj/sage-gpt">SageGPT-7.5M (DGX)</a></b>:
-  Small language model trained <b>from scratch</b> on <b>~140M pure Sanskrit tokens</b> on NVIDIA DGX Spark, with 6 layers, 8 attention heads, 256-dimensional embeddings, a 1024-token context window, and an ~8K vocabulary.
+  <b><a href="https://github.com/airawatraj/sage-gpt">SageGPT-7.2M (DGX)</a></b>:
+  Sanskrit-only decoder-only Transformer SLM trained <b>from scratch</b> on a <b>139 MB tokenized Sanskrit corpus</b> containing <b>72.8M SentencePiece model-token IDs</b>, derived from a <b>105.2M-character purified Sanskrit text corpus</b>. Runs on NVIDIA DGX Spark with 6 layers, 8 attention heads, 256-dimensional embeddings, a 1024-token context window, and an ~8K vocabulary.
 </li>
 
 <li>
