@@ -39,8 +39,14 @@ Building sovereign, local-first AI systems - from training small language models
 </li>
 
 <li>
+  <b><a href="https://github.com/airawatraj/dgx-spark-qwen38-flash-agent">Cogni-Brain 176B</a></b>:
+  Current daily-driver Cogni-Brain on DGX Spark: Qwen3.8-Flash-Next (125B MoE + 51.2B PLE) via SGLang with <b>HashK 4x GPU-resident PLE compression</b>, NEXTN speculative decoding, <b>36.8 tok/s</b> code generation, <b>262K context</b>, <b>100/100 Tool-Eval</b>, FP8 KV cache, and SM121 Blackwell kernel patches. Largest model running on a single Spark to date.
+</li>
+
+
+<li>
   <b><a href="https://github.com/airawatraj/dgx-spark-qwen-omni-super-agent">Cogni-Brain 122B</a></b>:
-  Current high-context Cogni-Brain iteration for DGX Spark: Qwen3.5-122B-A10B INT4+FP8 hybrid, a native multimodal model supporting <b>text, image, and video inputs</b>. Compared with the earlier Nemotron brain, this variant expands local context to <b>262K</b>, improves speed to <b>54.44 tok/s</b> single-stream, reaches 68 tok/s peak, supports 3 concurrent streams, and maintains <b>100/100 Tool-Eval</b>.
+  Previous high-context Cogni-Brain iteration for DGX Spark: Qwen3.5-122B-A10B INT4+FP8 hybrid, a native multimodal model supporting <b>text, image, and video inputs</b>. Compared with the earlier Nemotron brain, this variant expands local context to <b>262K</b>, improves speed to <b>54.44 tok/s</b> single-stream, reaches 68 tok/s peak, supports 3 concurrent streams, and maintains <b>100/100 Tool-Eval</b>.
 </li>
 
 <li>
