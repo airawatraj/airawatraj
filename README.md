@@ -31,6 +31,25 @@
 Building sovereign, local-first AI systems - from training small language models from scratch, through multimodal, high-speed, and long-context agent research on DGX Spark, to Cogni Life OS: a private intelligence and automation layer for personal and household knowledge.
 </p>
 
+### 🧠 The Research: Building a Sovereign AI Stack
+<b>Single NVIDIA DGX Spark Node (GB10 · 128 GB Unified Memory)</b>
+
+| Model | Params | Serving Engine | Context | Throughput | Tool-Eval | Specialisation | Multimodal |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :---: |
+| **<a href="https://github.com/airawatraj/dgx-spark-qwen38-flash-agent">Qwen3.8 Flash Next</a>** | ~176B (A6B) | SGLang + HashK R=4 + NEXTN | 262K | **~37 TPS** | **100/100** | **Current Daily Driver · Largest on Single Spark** | **Y** |
+| **<a href="https://github.com/airawatraj/dgx-spark-qwen38-super-agent">Qwen3.8</a>** | 27B Dense | vLLM NVFP4 + MTP | 262K | **~24 TPS** | **100/100** | Dense reasoning, tool integrity | **Y** |
+| **<a href="https://github.com/airawatraj/dgx-spark-muse-glimmer-agent">Muse-Glimmer (Inferact)</a>** | 30B Dense | vLLM W4A4 + DFlash | 131K | **~28 TPS** | **90/100** | Deep reasoning, activation quantization | **Y** |
+| **<a href="https://github.com/airawatraj/dgx-spark-qwen-omni-super-agent">Qwen 3.5</a>** | 122B-A10B | vLLM hybrid INT4+FP8 + DFlash | 262K | **~54 TPS** | **100/100** | Long-context omni-agent | **Y** |
+| **<a href="https://github.com/airawatraj/dgx-spark-qwen-super-agent">Qwen 3.6</a>** | 35B-A3B | Atlas NVFP4 | 131K | **~219 TPS** | **100/100** | Fastest inference, rapid ReAct loops | **Y** |
+| **<a href="https://github.com/airawatraj/dgx-spark-nemotron-super-agent">Nemotron-3-Super</a>** | 120B-A12B | vLLM NVFP4 | 131K | **~24 TPS** | **93/100** | Deep enterprise reasoning | Text only |
+| **<a href="https://github.com/airawatraj/dgx-spark-nemo-light-agent">Nemotron-3.5-Lightning</a>** | 30B-A3B | vLLM DSpark-NVFP4 | 262K / 1M | **~112 TPS** (262k)<br>**~42 TPS** (1M) | **80/100** | Massive-context, batch ingest | Text only |
+| **<a href="https://github.com/airawatraj/dgx-spark-lagunas21-agent">Laguna-S-2.1 (poolside)</a>** | 118B-A8B | vLLM DFlash-NVFP4 (7 tokens) | 262K | **~27 TPS** | **97/100** | Long-context coding agent | Text only |
+| **<a href="https://github.com/airawatraj/dgx-spark-gemma4-omni-agent">Gemma 4</a>** | 12B Dense | vLLM BF16 KV FP8 | 196K | **~22 TPS** | **83/100** | Multimodal perception (Audio / Frames) | **Y** |
+
+<br />
+
+### 🛠️ Systems & Ecosystem
+
 <ul>
 
 <li>
@@ -39,34 +58,8 @@ Building sovereign, local-first AI systems - from training small language models
 </li>
 
 <li>
-  <b><a href="https://github.com/airawatraj/dgx-spark-qwen38-flash-agent">Cogni-Brain 176B</a></b>:
-  Current daily-driver Cogni-Brain on DGX Spark: Qwen3.8-Flash-Next (125B MoE + 51.2B PLE) via SGLang with <b>HashK 4x GPU-resident PLE compression</b>, NEXTN speculative decoding, <b>36.8 tok/s</b> code generation, <b>262K context</b>, <b>100/100 Tool-Eval</b>, FP8 KV cache, and SM121 Blackwell kernel patches. Largest model running on a single Spark to date.
-</li>
-
-
-<li>
-  <b><a href="https://github.com/airawatraj/dgx-spark-qwen-omni-super-agent">Cogni-Brain 122B</a></b>:
-  Previous high-context Cogni-Brain iteration for DGX Spark: Qwen3.5-122B-A10B INT4+FP8 hybrid, a native multimodal model supporting <b>text, image, and video inputs</b>. Compared with the earlier Nemotron brain, this variant expands local context to <b>262K</b>, improves speed to <b>54.44 tok/s</b> single-stream, reaches 68 tok/s peak, supports 3 concurrent streams, and maintains <b>100/100 Tool-Eval</b>.
-</li>
-
-<li>
   <b><a href="https://github.com/airawatraj/cognibash">CogniBash</a></b>:
   Experimental terminal/action workbench for Cogni-Brain, exploring local <b>ReAct-style bash execution</b>, command feedback loops, workspace-scoped runs, output limits, safer tool-use guardrails, and <b>fine-tuned code-agent behaviour</b> on DGX Spark.
-</li>
-
-<li>
-  <b><a href="https://github.com/airawatraj/dgx-spark-nemotron-super-agent">Cogni-Brain 120B</a></b>:
-  Earlier large local reasoning brain for sandboxed DGX Spark workflows: Nemotron-3-Super-120B via vLLM with stable <b>131K local context</b>, <b>~24 tok/s</b>, <b>93/100 Tool-Eval</b>, a hardened agentic stack, and reproducible benchmark methodology.
-</li>
-
-<li>
-  <b><a href="https://github.com/airawatraj/dgx-spark-qwen-super-agent">Cogni-Brain 35B</a></b>:
-  Fast local tool-agent brain for sandboxed DGX Spark workflows: Qwen 3.6-35B via Atlas with <b>~219 tok/s</b>, <b>100/100 Tool-Eval</b>, and local NVFP4 acceleration for responsive Claude Code and agent loops.
-</li>
-
-<li>
-  <b><a href="https://github.com/airawatraj/dgx-spark-gemma4-omni-agent">Cogni-Brain 12B</a></b>:
-  Dedicated local multimodal perception agent for sandboxed DGX Spark workflows: Gemma 4 12B via vLLM with <b>image input</b>, <b>audio and voice-note workflows</b>, <b>video-as-frames perception</b>, multilingual chat, tool calling, <b>196K context</b>, and reproducible local benchmarks.
 </li>
 
 <li>
