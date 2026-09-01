@@ -32,14 +32,15 @@ Building sovereign, local-first AI systems - from training small language models
 </p>
 
 ### 🧠 The Research: Building a Sovereign AI Stack
-<b>Single NVIDIA DGX Spark Node (GB10 · 128 GB Unified Memory)</b>
+<b>Single NVIDIA DGX Spark Node (GB10 · 128 GB Unified Memory)</b><br />
+<sub><b>Tiered Range:</b> 12B → 27B → 30B → 35B → 118B → 120B → 122B → 176B &nbsp;&nbsp;|&nbsp;&nbsp; 🟢 Current Daily Driver &nbsp;•&nbsp; 🟡 Previous Stable</sub>
 
 | Model | Params | Serving Engine | Context | Throughput | Tool-Eval | Multimodal | Spark Arena Benchmark |
 | :--- | :--- | :--- | :--- | :--- | :--- | :---: | :--- |
-| **<a href="https://github.com/airawatraj/dgx-spark-qwen38-flash-agent">Qwen3.8 Flash Next</a>** | **~176B-A6B** | SGLang + HashK R=4 + NEXTN | ~262K | ~37 tok/s | **100/100** | **Y** | <a href="https://spark-arena.com/benchmark/652833c3-7506-4257-96f9-6a8e17d32a9c">Verified Run ↗</a> |
+| 🟢 **<a href="https://github.com/airawatraj/dgx-spark-qwen38-flash-agent">Qwen3.8 Flash Next</a>** | **~176B-A6B** | SGLang + HashK R=4 + NEXTN | ~262K | ~37 tok/s | **100/100** | **Y** | <a href="https://spark-arena.com/benchmark/652833c3-7506-4257-96f9-6a8e17d32a9c">Verified Run ↗</a> |
 | **<a href="https://github.com/airawatraj/dgx-spark-qwen38-super-agent">Qwen3.8</a>** | ~27B | vLLM NVFP4 + MTP | ~262K | ~24 tok/s | **100/100** | **Y** | <a href="https://spark-arena.com/benchmark/ebdc96af-3b58-4c5d-88f2-af996e166687">Verified Run ↗</a> |
 | **<a href="https://github.com/airawatraj/dgx-spark-muse-glimmer-agent">Muse-Glimmer (Inferact)</a>** | ~30B | vLLM W4A4 + DFlash | ~131K | ~28 tok/s | 90/100 | **Y** | <a href="https://spark-arena.com/benchmark/ec3851cb-e755-4522-a3bf-f1806cbdd14f">Verified Run ↗</a> |
-| **<a href="https://github.com/airawatraj/dgx-spark-qwen-omni-super-agent">Qwen 3.5</a>** | **~122B-A10B** | vLLM hybrid INT4+FP8 + DFlash | ~262K | ~54 tok/s | **100/100** | **Y** | <a href="https://spark-arena.com/benchmark/sub1782762533406">Verified Run ↗</a> |
+| 🟡 **<a href="https://github.com/airawatraj/dgx-spark-qwen-omni-super-agent">Qwen 3.5</a>** | **~122B-A10B** | vLLM hybrid INT4+FP8 + DFlash | ~262K | ~54 tok/s | **100/100** | **Y** | <a href="https://spark-arena.com/benchmark/sub1782762533406">Verified Run ↗</a> |
 | **<a href="https://github.com/airawatraj/dgx-spark-qwen-super-agent">Qwen 3.6</a>** | ~35B-A3B | Atlas NVFP4 | ~131K | **~219 tok/s** | **100/100** | **Y** | <a href="https://spark-arena.com/benchmark/sub1779495971526">Verified Run ↗</a> |
 | **<a href="https://github.com/airawatraj/dgx-spark-nemotron-super-agent">Nemotron-3-Super</a>** | **~120B-A12B** | vLLM NVFP4 | ~131K | ~24 tok/s | 93/100 | Text only | <a href="https://spark-arena.com/benchmark/sub1778644062716">Verified Run ↗</a> |
 | **<a href="https://github.com/airawatraj/dgx-spark-nemo-light-agent">Nemotron-3.5-Lightning</a>** | ~30B-A3B | vLLM DSpark-NVFP4 | ~262K / **~1M** | **~112 tok/s** (262k)<br>~42 tok/s (1M) | 80/100 | Text only | <a href="https://spark-arena.com/benchmark/a0c9f1c4-60f6-4bf2-a2b7-815817146da3">Verified Run ↗</a> |
